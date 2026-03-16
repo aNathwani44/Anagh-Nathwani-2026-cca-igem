@@ -3,29 +3,29 @@ import styles from './Gallery.module.css'
 
 const images = [
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/1280px-Red_Apple.jpg',
+    src: 'https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=1200&auto=format&fit=crop',
     alt: 'Healthy red apple ready for harvest',
     caption: 'Malus domestica — the primary commercial target threatened by fire blight outbreaks',
     span: 'tall',
   },
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/FireBlight1.jpg/1280px-FireBlight1.jpg',
-    alt: 'Fire blight infection on apple tree',
+    src: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=800&auto=format&fit=crop',
+    alt: 'Diseased and damaged apple tree branch',
     caption: 'Classic fire blight infection — scorched appearance caused by E. amylovora',
   },
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pear_and_blossom.jpg/640px-Pear_and_blossom.jpg',
+    src: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=800&auto=format&fit=crop',
     alt: 'Pear blossom — primary infection site',
     caption: 'Flower stigmata are primary entry points for E. amylovora during bloom season',
   },
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Quince_JPG01.jpg/640px-Quince_JPG01.jpg',
-    alt: 'Quince fruit on tree',
-    caption: 'Quince (Cydonia oblonga) — one of many Rosaceae species susceptible to fire blight',
+    src: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&auto=format&fit=crop',
+    alt: 'Pear fruit on tree',
+    caption: 'Characteristic fire blight infection — the scorched appearance that gives the disease its name',
   },
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Raspberry_pi_1_model_b_2.jpg/1280px-Raspberry_pi_1_model_b_2.jpg',
-    alt: 'Raspberry plant — also susceptible to fire blight',
+    src: 'https://images.unsplash.com/photo-1596591606975-97ee5cef3a1e?w=800&auto=format&fit=crop',
+    alt: 'Raspberries on bush',
     caption: 'Rubus idaeus (raspberry) — fire blight can devastate entire Rosaceae plantations',
   },
 ]
