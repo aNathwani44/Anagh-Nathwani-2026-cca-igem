@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://anagh.github.io/igem-application",
+  "homepage": "Anagh-Nathwani-2026-cca-igem",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

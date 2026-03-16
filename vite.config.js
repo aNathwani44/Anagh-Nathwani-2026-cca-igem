@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/igem-application/',
+  base: 'Anagh-Nathwani-2026-cca-igem',
 })
