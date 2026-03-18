@@ -187,3 +187,21 @@
   .stat { text-align: left; }
   .dnaBg { width: 300px; height: 300px; opacity: 0.04; right: -40px; }
 }
+
+@media (max-width: 480px) {
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .statNum { font-size: 1.8rem; }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .btnPrimary, .btnOutline {
+    width: 100%;
+    text-align: center;
+  }
+}

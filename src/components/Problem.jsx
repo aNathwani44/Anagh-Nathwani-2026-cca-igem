@@ -57,7 +57,7 @@ export default function Problem() {
         <div className={styles.imageCol}>
           <div className={styles.imageFrame}>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/FireBlight1.jpg/1280px-FireBlight1.jpg"
+              src="/Anagh-Nathwani-2026-cca-igem/appler.jpg"
               alt="Fire blight infection on apple tree showing scorched branches"
             />
             <div className={styles.imageCaption}>

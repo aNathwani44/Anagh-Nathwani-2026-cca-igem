@@ -67,3 +67,9 @@ button {
   0%, 100% { transform: translateY(0px); }
   50%       { transform: translateY(-10px); }
 }
+
+@media (max-width: 640px) {
+  section {
+    padding: 70px 5%;
+  }
+}

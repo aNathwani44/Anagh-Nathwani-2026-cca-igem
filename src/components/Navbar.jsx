@@ -11,6 +11,7 @@ const links = [
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40)
@@ -20,6 +21,7 @@ export default function Navbar() {
 
   const scrollTo = (e, href) => {
     e.preventDefault()
+    setMenuOpen(false)
     document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
   }
 
@@ -30,7 +32,7 @@ export default function Navbar() {
         Blight Busters
       </div>
 
-      <ul className={styles.links}>
+      <ul className={`${styles.links} ${menuOpen ? styles.open : ''}`}>
         {links.map(({ label, href }) => (
           <li key={href}>
             <a href={href} className={styles.link} onClick={(e) => scrollTo(e, href)}>
@@ -44,6 +46,16 @@ export default function Navbar() {
           </a>
         </li>
       </ul>
+
+      <button
+        className={styles.hamburger}
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Toggle menu"
+      >
+        <span className={`${styles.bar} ${menuOpen ? styles.barTop : ''}`} />
+        <span className={`${styles.bar} ${menuOpen ? styles.barMid : ''}`} />
+        <span className={`${styles.bar} ${menuOpen ? styles.barBot : ''}`} />
+      </button>
     </nav>
   )
 }
